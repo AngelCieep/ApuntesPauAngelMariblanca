@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "3aee556792cef598",
+    "type": "split",
+    "children": [
+      {
+        "id": "56ba70aea8c00ad7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d68bdfe44426654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Electromagnetismo/Temario/06 - Fuerzas sobre conductores y espiras.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 - Fuerzas sobre conductores y espiras"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71fd60bb77966591",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed63224e268746af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "009006f8fa2b0d92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b40928c2c3160039",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1095b94ee68c891e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "570a8ecfea147fa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b982eabc43e24353",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "916af3ad1f9ab2fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Electromagnetismo/Temario/06 - Fuerzas sobre conductores y espiras.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "749971b42d0faee3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Electromagnetismo/Temario/06 - Fuerzas sobre conductores y espiras.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5f46e63b08a07c14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d3de1de5231fa67f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d1f9ffe11101e6fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 Electromagnetismo/Temario/06 - Fuerzas sobre conductores y espiras.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4d68bdfe44426654",
+  "lastOpenFiles": [
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Inducción electromagnética.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Campo eléctrico, líneas de campo y dipolo.md",
+    "02 Electromagnetismo/Temario/06 - Fuerzas sobre conductores y espiras.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Fuerzas sobre conductores y espiras.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Fuentes del campo magnético y materiales.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Campo magnético y fuerza sobre cargas.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Potencial eléctrico.md",
+    "02 Electromagnetismo/Ejercicios/Ejercicios - Carga, ley de Coulomb y energía.md",
+    "02 Electromagnetismo/Ejercicios",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Anexo - Mareas, variación de g y Neptuno.md",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Satélites, órbitas y velocidad de escape.md",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Campo gravitatorio terrestre.md",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Trabajo, energía potencial, conservación y potencial.md",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Campo e intensidad gravitatoria.md",
+    "01 Campo gravitatorio/Ejercicios/Ejercicios - Leyes de Kepler y gravitación universal.md",
+    "01 Campo gravitatorio/Ejercicios",
+    "imagenes-ejercicios.zip",
+    "02 Electromagnetismo/Temario/01 - Carga, ley de Coulomb y energía.md",
+    "02 Electromagnetismo/Índice - Electromagnetismo.md",
+    "index.md",
+    "01 Campo gravitatorio/Temario/04 - Problemas resueltos de energía.md",
+    "02 Electromagnetismo/Temario/07 - Inducción electromagnética.md",
+    "02 Electromagnetismo/Imágenes/e-solenoidelargo.png",
+    "02 Electromagnetismo/Imágenes/e-senoide.png",
+    "02 Electromagnetismo/Imágenes/e-paralelos2.png",
+    "02 Electromagnetismo/Imágenes/e-paralelos1.png",
+    "02 Electromagnetismo/Imágenes/e-lenzhenry.png",
+    "02 Electromagnetismo/Imágenes/e-lenzfaraday.png",
+    "02 Electromagnetismo/Imágenes/e-henryflujo.png",
+    "02 Electromagnetismo/Imágenes/e-henry.png",
+    "02 Electromagnetismo/Imágenes/e-galvanometro.png",
+    "02 Electromagnetismo/Imágenes/e-flujo.png",
+    "02 Electromagnetismo/Conceptos/Ley de Lenz.md",
+    "02 Electromagnetismo/Conceptos/Ley de Faraday-Henry.md",
+    "02 Electromagnetismo/Conceptos/Inducción electromagnética.md",
+    "02 Electromagnetismo/Conceptos/Galvanómetro.md",
+    "02 Electromagnetismo/Conceptos/Fuerzas sobre una espira.md",
+    "02 Electromagnetismo/Conceptos/Fuerza sobre un conductor.md",
+    "02 Electromagnetismo/Conceptos/Fuerza entre conductores paralelos.md",
+    "02 Electromagnetismo/Temario",
+    "02 Electromagnetismo/Imágenes",
+    "02 Electromagnetismo/Conceptos",
+    "01 Campo gravitatorio/Temario",
+    "_src/Campogravitatorio.pdf",
+    "01 Campo gravitatorio/Problemas",
+    "01 Campo gravitatorio/Imágenes"
+  ]
+}

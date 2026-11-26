@@ -1,0 +1,209 @@
+/* Vista tipo hoja PDF (solo modo lectura) */
+body {
+  --file-line-width: 1050px;
+}
+
+/* Fondo exterior */
+.markdown-reading-view {
+  background-color: var(--background-secondary);
+}
+
+/* La hoja */
+.markdown-reading-view .markdown-preview-sizer {
+  background-color: var(--background-primary);
+  box-sizing: content-box;
+  padding: 60px 70px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Ventanas estrechas: menos margen */
+@media (max-width: 1100px) {
+  .markdown-reading-view .markdown-preview-sizer {
+    box-sizing: border-box;
+    padding: 30px !important;
+  }
+}
+
+/* Notas incrustadas sin recuadro, como texto continuo */
+.markdown-reading-view .markdown-embed {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.markdown-reading-view .markdown-embed-title {
+  display: none;
+}
+
+.markdown-reading-view .markdown-embed .inline-title {
+  display: none;
+}
+
+.markdown-reading-view .markdown-embed-content,
+.markdown-reading-view .markdown-embed-content > .markdown-preview-view {
+  max-height: none;
+  overflow: visible;
+  padding: 0;
+}
+
+/* Las incrustadas no deben convertirse en otra hoja */
+.markdown-reading-view .markdown-embed .markdown-preview-sizer {
+  background: none;
+  box-shadow: none;
+  padding: 0 !important;
+}
+
+/* Imágenes centradas */
+.markdown-reading-view .image-embed {
+  display: block;
+  text-align: center;
+}
+
+/* ===== Organización de los apuntes ===== */
+
+/* Títulos */
+.markdown-reading-view h2 {
+  color: var(--color-blue);
+  border-bottom: 3px solid var(--color-blue);
+  padding-bottom: 6px;
+  margin-top: 2.5em;
+}
+
+.markdown-reading-view h3 {
+  color: var(--color-cyan);
+  border-left: 5px solid var(--color-cyan);
+  padding-left: 10px;
+  margin-top: 2em;
+}
+
+.markdown-reading-view h4 {
+  color: var(--color-green);
+  border-bottom: 1px dashed var(--color-green);
+  padding-bottom: 3px;
+  margin-top: 1.6em;
+}
+
+/* Texto */
+.markdown-reading-view p {
+  line-height: 1.65;
+}
+
+/* Definiciones y leyes (citas) */
+.markdown-reading-view blockquote {
+  background-color: rgba(var(--color-yellow-rgb), 0.1);
+  border-left: 4px solid var(--color-yellow);
+  border-radius: 0 6px 6px 0;
+  padding: 4px 18px;
+  text-align: center;
+}
+
+/* Fórmulas */
+.markdown-reading-view .math-block {
+  display: block; /* sin esto, el fondo se parte en bloques a la izquierda */
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 1em 0;
+  white-space: normal; /* evita líneas en blanco dentro del recuadro */
+  overflow-x: auto;
+}
+
+.markdown-reading-view .math-block mjx-container[display="true"] {
+  margin: 0 !important;
+}
+
+/* Tablas */
+.markdown-reading-view table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-reading-view th {
+  background-color: var(--background-secondary);
+}
+
+/* Imágenes sobre fondo blanco (legibles en tema oscuro) */
+.markdown-reading-view .image-embed img {
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+/* ===== Tamaño de fórmulas e imágenes ===== */
+
+/* Fórmulas: cambia los porcentajes para ajustarlas */
+.markdown-reading-view .math-block mjx-container {
+  font-size: 140% !important;
+}
+
+.markdown-reading-view .math-inline mjx-container {
+  font-size: 115% !important;
+}
+
+/* Imágenes: 1,5 veces el ancho indicado en la nota, sin salirse de la hoja */
+.markdown-reading-view .image-embed img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.markdown-reading-view .image-embed img[width="100"] { width: 150px; }
+.markdown-reading-view .image-embed img[width="110"] { width: 165px; }
+.markdown-reading-view .image-embed img[width="120"] { width: 180px; }
+.markdown-reading-view .image-embed img[width="130"] { width: 195px; }
+.markdown-reading-view .image-embed img[width="140"] { width: 210px; }
+.markdown-reading-view .image-embed img[width="150"] { width: 225px; }
+.markdown-reading-view .image-embed img[width="160"] { width: 240px; }
+.markdown-reading-view .image-embed img[width="170"] { width: 255px; }
+.markdown-reading-view .image-embed img[width="180"] { width: 270px; }
+.markdown-reading-view .image-embed img[width="190"] { width: 285px; }
+.markdown-reading-view .image-embed img[width="200"] { width: 300px; }
+.markdown-reading-view .image-embed img[width="210"] { width: 315px; }
+.markdown-reading-view .image-embed img[width="220"] { width: 330px; }
+.markdown-reading-view .image-embed img[width="230"] { width: 345px; }
+.markdown-reading-view .image-embed img[width="240"] { width: 360px; }
+.markdown-reading-view .image-embed img[width="250"] { width: 375px; }
+.markdown-reading-view .image-embed img[width="260"] { width: 390px; }
+.markdown-reading-view .image-embed img[width="270"] { width: 405px; }
+.markdown-reading-view .image-embed img[width="280"] { width: 420px; }
+.markdown-reading-view .image-embed img[width="290"] { width: 435px; }
+.markdown-reading-view .image-embed img[width="300"] { width: 450px; }
+.markdown-reading-view .image-embed img[width="310"] { width: 465px; }
+.markdown-reading-view .image-embed img[width="320"] { width: 480px; }
+.markdown-reading-view .image-embed img[width="330"] { width: 495px; }
+.markdown-reading-view .image-embed img[width="340"] { width: 510px; }
+.markdown-reading-view .image-embed img[width="350"] { width: 525px; }
+.markdown-reading-view .image-embed img[width="360"] { width: 540px; }
+.markdown-reading-view .image-embed img[width="370"] { width: 555px; }
+.markdown-reading-view .image-embed img[width="380"] { width: 570px; }
+.markdown-reading-view .image-embed img[width="390"] { width: 585px; }
+.markdown-reading-view .image-embed img[width="400"] { width: 600px; }
+.markdown-reading-view .image-embed img[width="410"] { width: 615px; }
+.markdown-reading-view .image-embed img[width="420"] { width: 630px; }
+.markdown-reading-view .image-embed img[width="430"] { width: 645px; }
+.markdown-reading-view .image-embed img[width="440"] { width: 660px; }
+.markdown-reading-view .image-embed img[width="450"] { width: 675px; }
+.markdown-reading-view .image-embed img[width="460"] { width: 690px; }
+.markdown-reading-view .image-embed img[width="470"] { width: 705px; }
+.markdown-reading-view .image-embed img[width="480"] { width: 720px; }
+.markdown-reading-view .image-embed img[width="490"] { width: 735px; }
+.markdown-reading-view .image-embed img[width="500"] { width: 750px; }
+.markdown-reading-view .image-embed img[width="510"] { width: 765px; }
+.markdown-reading-view .image-embed img[width="520"] { width: 780px; }
+.markdown-reading-view .image-embed img[width="530"] { width: 795px; }
+.markdown-reading-view .image-embed img[width="540"] { width: 810px; }
+.markdown-reading-view .image-embed img[width="550"] { width: 825px; }
+.markdown-reading-view .image-embed img[width="560"] { width: 840px; }
+.markdown-reading-view .image-embed img[width="570"] { width: 855px; }
+.markdown-reading-view .image-embed img[width="580"] { width: 870px; }
+.markdown-reading-view .image-embed img[width="590"] { width: 885px; }
+.markdown-reading-view .image-embed img[width="600"] { width: 900px; }
+.markdown-reading-view .image-embed img[width="610"] { width: 915px; }
+.markdown-reading-view .image-embed img[width="620"] { width: 930px; }
+.markdown-reading-view .image-embed img[width="630"] { width: 945px; }
+.markdown-reading-view .image-embed img[width="640"] { width: 960px; }
+.markdown-reading-view .image-embed img[width="650"] { width: 975px; }
+.markdown-reading-view .image-embed img[width="660"] { width: 990px; }
+.markdown-reading-view .image-embed img[width="670"] { width: 1005px; }
+.markdown-reading-view .image-embed img[width="680"] { width: 1020px; }
+.markdown-reading-view .image-embed img[width="690"] { width: 1035px; }
+.markdown-reading-view .image-embed img[width="700"] { width: 1050px; }
